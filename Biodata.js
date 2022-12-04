@@ -5,17 +5,16 @@ const personalinfo = [
         "DOB" : "01-04-2002",
         "Native" : "Madurai",
         "Nationality" : "Indian",
-        "Email ID" : "deepavisahlig@gmail.com",
-        "Mobile number" : "8681xxxxx6",
+        "Email" : "deepavisahlig@gmail.com",
+        "Mobilenumber" : "8681xxxxx6",
         "Address" : "52,West masi street"
-
     },
     {
        "Qualification" : "Bsc mathematics with computer Applications",
-       "Work Experience" : "LDC Eco Bridge-(LEB)",
+       "WorkExperience" : "LDC Eco Bridge-(LEB)",
     },
 ]
-console.log("Skills")
+
 const skills = [{"1" : "Analytical Skills"},
                  {"2": "Communication and Interpersonal skills"},
                  {"3" : "javascript"},
@@ -24,28 +23,34 @@ const certificates = ["DCA","PGDMA"]
 const Languages = ["Telugu","Tamil","English"]
 const Interest = ["Pencil sketching","Cooking","Gardening"]
 
-console.log("Personal Details :" )
-
-console.log(personalinfo)
-
-console.log("Skills : " )
-
-console.log(skills)
-
-console.log("certificates : " )
-
-console.log(certificates[0])
-console.log(certificates[1])
-
-console.log("Languages : " )
-
-console.log(Languages[0])
-console.log(Languages[1])
-console.log(Languages[2])
-
-console.log("Interest : " )
-
-console.log(Interest[0])
-console.log(Interest[1])
-console.log(Interest[2])
-
+console.log("Personal Details : ")
+console.log(`Name : ${personalinfo[0].Name}`)
+console.log(`Father name : ${personalinfo[0].Fathername}`)
+console.log(`DOB : ${personalinfo[0].DOB}`)
+console.log(`Native : ${personalinfo[0].Native}`)
+console.log(`Nationality : ${personalinfo[0].Nationality}`)
+console.log(`Email : ${personalinfo[0].Email}`)
+console.log(`Mobile Number : ${personalinfo[0].Mobilenumber}`)
+console.log(`Address : ${personalinfo[0].Address}`)
+console.log(`Qualification : ${personalinfo[1].Qualification}`)
+console.log(`Work Experience : ${personalinfo[1].WorkExperience}`)
+console.log("")
+console.log("Skills : ")
+console.log(`1 : ${skills[0][1]}`)
+console.log(`2 : ${skills[1][2]}`)
+console.log(`3 : ${skills[2][3]}`)
+console.log(`4 : ${skills[3][4]}`)
+console.log("")
+console.log("Certificates : ")
+console.log(`1 : ${certificates[0]}`)
+console.log(`2 : ${certificates[1]}`)
+console.log("")
+console.log("Languages : ")
+console.log(`1 : ${Languages[0]}`)
+console.log(`2 : ${Languages[1]}`)
+console.log(`3 : ${Languages[2]}`)
+console.log("")
+console.log("Interest : ")
+console.log(`1 : ${Interest[0]}`)
+console.log(`2 : ${Interest[1]}`)
+console.log(`3 : ${Interest[2]}`)
